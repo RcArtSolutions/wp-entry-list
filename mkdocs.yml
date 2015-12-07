@@ -2,7 +2,7 @@ site_name: Wordpress Plugin - Entry List
 repo_url: https://github.com/RcArtSolutions/wp-entry-list
 repo_name: GitHub
 site_author: Elias Ruemmler
-docs_dir:
+docs_dir: null
 
 pages:
 - 'Einführung': 'README.md'
