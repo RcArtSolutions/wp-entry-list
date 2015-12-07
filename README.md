@@ -1,4 +1,6 @@
-wp-entry-list
-=============
+Wordpress Plugin - Entry List
+=============================
+
+A simple entry list for R/C car racing events
 
 Find the documentation on http://wp-entry-list.readthedocs.org
