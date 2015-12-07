@@ -4,6 +4,6 @@ repo_name: GitHub
 site_author: Elias Ruemmler
 
 pages:
-- 'Einführung': '../README.md'
+- 'Einführung': 'index.md'
 - 'Benutzung': 'user-guide.md'
 - 'Über': 'about.md'
