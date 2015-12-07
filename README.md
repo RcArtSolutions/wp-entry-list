@@ -1,4 +1,4 @@
 wp-entry-list
 =============
 
-A simple entry list fpr R/C car racing events
+A simple entry list for R/C car racing events
