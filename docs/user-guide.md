@@ -1,7 +1,7 @@
 Installation
 ============
 
-Die aktuelle Version kann auf www.rc-art.de herunter geladen werden und über den Plugin-Installer von Wordpress installiert werden.
+Die aktuelle Version kann auf http://www.rc-art.de herunter geladen werden und über den Plugin-Installer von Wordpress installiert werden.
 
 Einrichtung
 ===========
