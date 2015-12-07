@@ -1,7 +1,7 @@
 <?php
-if(!class_exists('WP_Plugin_Template_Settings'))
+if(!class_exists('RCA_Entry_List_Settings'))
 {
-	class WP_Plugin_Template_Settings
+	class RCA_Entry_List_Settings
 	{
 		/**
 		 * Construct the plugin object
@@ -19,45 +19,45 @@ if(!class_exists('WP_Plugin_Template_Settings'))
         public function admin_init()
         {
         	// register your plugin's settings
-        	register_setting('wp_plugin_template-group', 'setting_a');
-        	register_setting('wp_plugin_template-group', 'setting_b');
+        	register_setting('rca_entry_list-group', 'setting_a');
+        	register_setting('rca_entry_list-group', 'setting_b');
 
         	// add your settings section
         	add_settings_section(
-        	    'wp_plugin_template-section', 
-        	    'WP Plugin Template Settings', 
-        	    array(&$this, 'settings_section_wp_plugin_template'), 
-        	    'wp_plugin_template'
+        	    'rca_entry_list-section', 
+        	    'Entry List Settings', 
+        	    array(&$this, 'settings_section_rca_entry_list'), 
+        	    'rca_entry_list'
         	);
         	
         	// add your setting's fields
             add_settings_field(
-                'wp_plugin_template-setting_a', 
+                'rca_entry_list-setting_a', 
                 'Setting A', 
                 array(&$this, 'settings_field_input_text'), 
-                'wp_plugin_template', 
-                'wp_plugin_template-section',
+                'rca_entry_list', 
+                'rca_entry_list-section',
                 array(
                     'field' => 'setting_a'
                 )
             );
             add_settings_field(
-                'wp_plugin_template-setting_b', 
+                'rca_entry_list-setting_b', 
                 'Setting B', 
                 array(&$this, 'settings_field_input_text'), 
-                'wp_plugin_template', 
-                'wp_plugin_template-section',
+                'rca_entry_list', 
+                'rca_entry_list-section',
                 array(
                     'field' => 'setting_b'
                 )
             );
             // Possibly do additional admin_init tasks
-        } // END public static function activate
+        }
         
-        public function settings_section_wp_plugin_template()
+        public function settings_section_rca_entry_list()
         {
             // Think of this as help text for the section.
-            echo 'These settings do things for the WP Plugin Template.';
+            echo 'These settings do things for the Entry List.';
         }
         
         /**
@@ -71,7 +71,7 @@ if(!class_exists('WP_Plugin_Template_Settings'))
             $value = get_option($field);
             // echo a proper input type="text"
             echo sprintf('<input type="text" name="%s" id="%s" value="%s" />', $field, $field, $value);
-        } // END public function settings_field_input_text($args)
+        }
         
         /**
          * add a menu
@@ -80,10 +80,10 @@ if(!class_exists('WP_Plugin_Template_Settings'))
         {
             // Add a page to manage this plugin's settings
         	add_options_page(
-        	    'WP Plugin Template Settings', 
-        	    'WP Plugin Template', 
+        	    'Entry List Settings', 
+        	    'Entry List', 
         	    'manage_options', 
-        	    'wp_plugin_template', 
+        	    'rca_entry_list', 
         	    array(&$this, 'plugin_settings_page')
         	);
         } // END public function add_menu()
@@ -100,6 +100,6 @@ if(!class_exists('WP_Plugin_Template_Settings'))
 	
         	// Render the settings template
         	include(sprintf("%s/templates/settings.php", dirname(__FILE__)));
-        } // END public function plugin_settings_page()
-    } // END class WP_Plugin_Template_Settings
-} // END if(!class_exists('WP_Plugin_Template_Settings'))
+        }
+    }
+}

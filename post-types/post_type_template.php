@@ -21,7 +21,7 @@ if(!class_exists('Post_Type_Template'))
     		// register actions
     		add_action('init', array(&$this, 'init'));
     		add_action('admin_init', array(&$this, 'admin_init'));
-    	} // END public function __construct()
+    	}
 
     	/**
     	 * hook into WP's init action hook
@@ -31,7 +31,7 @@ if(!class_exists('Post_Type_Template'))
     		// Initialize Post Type
     		$this->create_post_type();
     		add_action('save_post', array(&$this, 'save_post'));
-    	} // END public function init()
+    	}
 
     	/**
     	 * Create the post type
@@ -78,7 +78,7 @@ if(!class_exists('Post_Type_Template'))
     		{
     			return;
     		} // if($_POST['post_type'] == self::POST_TYPE && current_user_can('edit_post', $post_id))
-    	} // END public function save_post($post_id)
+    	}
 
     	/**
     	 * hook into WP's admin_init action hook
@@ -87,7 +87,7 @@ if(!class_exists('Post_Type_Template'))
     	{			
     		// Add metaboxes
     		add_action('add_meta_boxes', array(&$this, 'add_meta_boxes'));
-    	} // END public function admin_init()
+    	}
 			
     	/**
     	 * hook into WP's add_meta_boxes action hook
@@ -96,12 +96,12 @@ if(!class_exists('Post_Type_Template'))
     	{
     		// Add this metabox to every selected post
     		add_meta_box( 
-    			sprintf('wp_plugin_template_%s_section', self::POST_TYPE),
+    			sprintf('rca_entry_list_%s_section', self::POST_TYPE),
     			sprintf('%s Information', ucwords(str_replace("_", " ", self::POST_TYPE))),
     			array(&$this, 'add_inner_meta_boxes'),
     			self::POST_TYPE
     	    );					
-    	} // END public function add_meta_boxes()
+    	} 
 
 		/**
 		 * called off of the add meta box
@@ -110,7 +110,6 @@ if(!class_exists('Post_Type_Template'))
 		{		
 			// Render the job order metabox
 			include(sprintf("%s/../templates/%s_metabox.php", dirname(__FILE__), self::POST_TYPE));			
-		} // END public function add_inner_meta_boxes($post)
-
-	} // END class Post_Type_Template
-} // END if(!class_exists('Post_Type_Template'))
+		}
+    }
+}
