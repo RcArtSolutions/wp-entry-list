@@ -1,4 +1,4 @@
-wp_plugin_template
-==================
+wp-entry-list
+=============
 
-A plugin template
+A simple entry list fpr R/C car racing events
