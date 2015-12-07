@@ -4,7 +4,7 @@ Plugin Name: WP Entry List
 Plugin URI: https://github.com/RcArtSolutions/wp-entry-list
 Description: A simple entry list for R/C car racing events
 Version: 0.01
-Author: Elias Ruemmler
+Author: Elias Ruemmler (RC-Art Solutions)
 Author URI: http://www.rc-art.de
 License: GPL2
 */
