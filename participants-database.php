@@ -1,18 +1,18 @@
 <?php
 /**
  * Plugin Name: Participants Database
- * Plugin URI: http://xnau.com/wordpress-plugins/participants-database
- * Description: Plugin for managing a database of participants, members or volunteers
- * Author: Roland Barker
- * Version: 1.6.2.5
- * Author URI: http://xnau.com
+ * Plugin URI: https://github.com/RcArtSolutions/wp-entry-list
+ * Description: A simple entry list for R/C car racing events
+ * Author: RC-Art Solutions
+ * Version: 0.15-beta
+ * Author URI: http://www.rc-art.de
  * License: GPL2
  * Text Domain: participants-database
  * Domain Path: /languages
  */
 
 /*
- * Copyright 2011, 2012, 2013, 2014, 2015 Roland Barker xnau webdesign  (email : webdesign@xnau.com)
+ * Copyright 2015 RC-Art Solutions  (email : e.ruemmler@rc-art.de)
  *
  * This program is free software; you can redistribute it and/or modify it
  * under the terms of the GNU General Public License, version 2, as
