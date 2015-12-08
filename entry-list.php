@@ -4,7 +4,7 @@
  * Plugin URI: https://github.com/RcArtSolutions/wp-entry-list
  * Description: A simple entry list for R/C car racing events
  * Author: RC-Art Solutions
- * Version: 0.13-beta
+ * Version: 0.14-beta
  * Author URI: http://www.rc-art.de
  * License: GPL2
  * Text Domain: participants-database
@@ -50,7 +50,7 @@ class Participants_Db extends PDb_Base {
    * 
    * @var string unique slug for the plugin
    */
-  const PLUGIN_NAME = 'participants-database';
+  const PLUGIN_NAME = 'entry-list';
 
   /**
    *  display title

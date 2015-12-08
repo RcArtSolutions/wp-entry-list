@@ -1,17 +1,17 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Entry List\n"
-"POT-Creation-Date: 2015-12-08 22:01-1000\n"
+"Project-Id-Version: Participants Database\n"
+"POT-Creation-Date: 2015-06-13 18:10-1000\n"
 "PO-Revision-Date: 2015-06-13 18:09-1000\n"
-"Last-Translator: Elias Ruemmler <e.ruemmler@rc-art.de>\n"
-"Language-Team: Elias Ruemmler <e.ruemmler@rc-art.de>\n"
+"Last-Translator: Roland Barker <webdesign@xnau.com>\n"
+"Language-Team: Roland Barker <webdesign@xnau.com>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: Poedit 1.8beta3\n"
 "X-Poedit-Basepath: ..\n"
-"X-Poedit-WPHeader: entry-list.php\n"
+"X-Poedit-WPHeader: participants-database.php\n"
 "X-Poedit-SourceCharset: UTF-8\n"
 "X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
 "esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
@@ -209,8 +209,8 @@ msgstr ""
 msgid "Record delete successful."
 msgstr ""
 
-#: classes/PDb_List_Admin.class.php:559 entry-list.php:518
-#: entry-list.php:519
+#: classes/PDb_List_Admin.class.php:559 participants-database.php:518
+#: participants-database.php:519
 msgid "List Participants"
 msgstr ""
 
@@ -305,8 +305,8 @@ msgid ""
 "the \"CSV\" column on the Manage Database Fields page."
 msgstr ""
 
-#: classes/PDb_Manage_Fields.class.php:82 entry-list.php:547
-#: entry-list.php:548
+#: classes/PDb_Manage_Fields.class.php:82 participants-database.php:547
+#: participants-database.php:548
 msgid "Manage Database Fields"
 msgstr ""
 
@@ -513,11 +513,11 @@ msgstr ""
 msgid "First"
 msgstr ""
 
-#: classes/PDb_Pagination.class.php:367 entry-list.php:3317
+#: classes/PDb_Pagination.class.php:367 participants-database.php:3317
 msgid "Previous"
 msgstr ""
 
-#: classes/PDb_Pagination.class.php:377 entry-list.php:3316
+#: classes/PDb_Pagination.class.php:377 participants-database.php:3316
 msgid "Next"
 msgstr ""
 
@@ -1541,8 +1541,8 @@ msgstr ""
 msgid "Admin"
 msgstr ""
 
-#: classes/PDb_Settings.class.php:1368 entry-list.php:565
-#: entry-list.php:566 entry-list.php:3427
+#: classes/PDb_Settings.class.php:1368 participants-database.php:565
+#: participants-database.php:566 participants-database.php:3427
 msgid "Settings"
 msgstr ""
 
@@ -1913,118 +1913,118 @@ msgid ""
 msgstr ""
 
 #. Plugin Name of the plugin/theme
-#: entry-list.php:374
+#: participants-database.php:374
 msgid "Participants Database"
 msgstr ""
 
-#: entry-list.php:538 entry-list.php:539
+#: participants-database.php:538 participants-database.php:539
 msgid "Add Participant"
 msgstr ""
 
-#: entry-list.php:556 entry-list.php:557
+#: participants-database.php:556 participants-database.php:557
 #: upload_csv.php:38
 msgid "Import CSV File"
 msgstr ""
 
-#: entry-list.php:574 entry-list.php:575
+#: participants-database.php:574 participants-database.php:575
 msgid "Setup Guide"
 msgstr ""
 
-#: entry-list.php:626
+#: participants-database.php:626
 msgid "You must remove all fields from the {name} group before deleting it."
 msgstr ""
 
-#: entry-list.php:627
+#: participants-database.php:627
 msgid "Delete the \"{name}\" {thing}?"
 msgstr ""
 
-#: entry-list.php:628
+#: participants-database.php:628
 msgid "The changes you made will be lost if you navigate away from this page."
 msgstr ""
 
-#: entry-list.php:2782
+#: participants-database.php:2782
 msgid ""
 "There is something wrong with the file you tried to upload. Try another."
 msgstr ""
 
-#: entry-list.php:2798 entry-list.php:2826
+#: participants-database.php:2798 participants-database.php:2826
 #, php-format
 msgid "For \"%s\", you may only upload image files like JPEGs, GIFs or PNGs."
 msgstr ""
 
-#: entry-list.php:2800
+#: participants-database.php:2800
 #, php-format
 msgid "The file selected for \"%s\" must be one of these types: %s. "
 msgstr ""
 
-#: entry-list.php:2833
+#: participants-database.php:2833
 #, php-format
 msgid ""
 "The file you tried to upload is too large. The file must be smaller than %sK."
 msgstr ""
 
-#: entry-list.php:2840
+#: participants-database.php:2840
 msgid "The file could not be saved."
 msgstr ""
 
-#: entry-list.php:2885
+#: participants-database.php:2885
 #, php-format
 msgid "The uploads directory (%s) could not be created."
 msgstr ""
 
-#: entry-list.php:3200
+#: participants-database.php:3200
 #, php-format
 msgid ""
 "The date for \"%s\" was invalid. Please input the date with the exact format "
 "shown"
 msgstr ""
 
-#: entry-list.php:3314 templates/pdb-retrieve-bootstrap.php:69
+#: participants-database.php:3314 templates/pdb-retrieve-bootstrap.php:69
 #: templates/pdb-retrieve-default.php:60
 msgid "Submit"
 msgstr ""
 
-#: entry-list.php:3315
+#: participants-database.php:3315
 msgid "Apply"
 msgstr ""
 
-#: entry-list.php:3318
+#: participants-database.php:3318
 msgid "The record has been updated."
 msgstr ""
 
-#: entry-list.php:3319
+#: participants-database.php:3319
 msgid "The new record has been added."
 msgstr ""
 
-#: entry-list.php:3320
+#: participants-database.php:3320
 #, php-format
 msgid "No record was added on query: %s"
 msgstr ""
 
-#: entry-list.php:3321
+#: participants-database.php:3321
 #, php-format
 msgid "Database Error: %2$s on query: %1$s"
 msgstr ""
 
-#: entry-list.php:3388
+#: participants-database.php:3388
 msgid "WordPress Plugin"
 msgstr ""
 
-#: entry-list.php:3389
+#: participants-database.php:3389
 msgid ""
 "Helping organizations manage their volunteers, members and participants."
 msgstr ""
 
-#: entry-list.php:3392
+#: participants-database.php:3392
 msgid "Developed by"
 msgstr ""
 
-#: entry-list.php:3393
+#: participants-database.php:3393
 msgid ""
 "Suggestions or criticisms of this plugin? I&#39;d love to hear them: email "
 msgstr ""
 
-#: entry-list.php:3396
+#: participants-database.php:3396
 #, php-format
 msgid ""
 "Please consider contributing to the continued support and development of "
@@ -2033,15 +2033,15 @@ msgid ""
 "Thanks!"
 msgstr ""
 
-#: entry-list.php:3447
+#: participants-database.php:3447
 msgid "Submit a rating or review"
 msgstr ""
 
-#: entry-list.php:3448
+#: participants-database.php:3448
 msgid "Free tech support and continued development relies on your support:"
 msgstr ""
 
-#: entry-list.php:3448
+#: participants-database.php:3448
 msgid "contribute"
 msgstr ""
 
