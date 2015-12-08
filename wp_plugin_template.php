@@ -1,10 +1,10 @@
 <?php
 /*
-Plugin Name: WP Entry List
+Plugin Name: Entry List
 Plugin URI: https://github.com/RcArtSolutions/wp-entry-list
 Description: A simple entry list for R/C car racing events
 Version: 0.01
-Author: Elias Ruemmler (RC-Art Solutions)
+Author: RC-Art Solutions
 Author URI: http://www.rc-art.de
 License: GPL2
 */
@@ -23,6 +23,9 @@ GNU General Public License for more details.
 You should have received a copy of the GNU General Public License
 along with this program; if not, write to the Free Software
 Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA  02110-1301  USA
+*/
+/*
+Tempalte Orgin: http://www.yaconiello.com/blog/how-to-write-wordpress-plugin/
 */
 
 if(!class_exists('RCA_Entry_List'))
@@ -80,5 +83,4 @@ if(class_exists('RCA_Entry_List'))
 
 	// instantiate the plugin class
 	$rca_entry_list = new RCA_Entry_List();
-
 }

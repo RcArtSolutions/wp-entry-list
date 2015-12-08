@@ -77,7 +77,7 @@ if(!class_exists('Post_Type_Template'))
     		else
     		{
     			return;
-    		} // if($_POST['post_type'] == self::POST_TYPE && current_user_can('edit_post', $post_id))
+    		}
     	}
 
     	/**

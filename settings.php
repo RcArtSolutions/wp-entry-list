@@ -11,7 +11,7 @@ if(!class_exists('RCA_Entry_List_Settings'))
 			// register actions
             add_action('admin_init', array(&$this, 'admin_init'));
         	add_action('admin_menu', array(&$this, 'add_menu'));
-		} // END public function __construct
+		}
 		
         /**
          * hook into WP's admin_init action hook
@@ -86,7 +86,7 @@ if(!class_exists('RCA_Entry_List_Settings'))
         	    'rca_entry_list', 
         	    array(&$this, 'plugin_settings_page')
         	);
-        } // END public function add_menu()
+        }
     
         /**
          * Menu Callback

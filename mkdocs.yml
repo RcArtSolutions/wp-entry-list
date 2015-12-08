@@ -1,4 +1,5 @@
 site_name: Wordpress Plugin - Entry List
+theme: readthedocs
 repo_url: https://github.com/RcArtSolutions/wp-entry-list
 repo_name: GitHub
 site_author: Elias Ruemmler
