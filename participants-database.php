@@ -36,10 +36,10 @@ spl_autoload_register('PDb_class_loader');
  * 
  * @category   WordPress Plugins
  * @package    wordPress
- * @author     Roland Barker <webdesign@xnau.com>
- * @copyright  2011 - 2015 7th Veil, LLC
+ * @author     RC-Art Solutions <e.ruemmler@rc-art.de>
+ * @copyright  2015 7th Veil, LLC
  * @license    http://www.gnu.org/licenses/gpl-2.0.txt GPL2
- * @version    Release: 1.6
+ * @version    Release: 0.15-beta
  * 
  */
 class Participants_Db extends PDb_Base {
@@ -50,7 +50,7 @@ class Participants_Db extends PDb_Base {
    * 
    * @var string unique slug for the plugin
    */
-  const PLUGIN_NAME = 'participants-database';
+  const PLUGIN_NAME = 'entry-list';
 
   /**
    *  display title
@@ -3451,9 +3451,8 @@ class Participants_Db extends PDb_Base {
     
       //error_log( ' meta links: '.print_r( $links,1 ));
       
-      $links[1] = str_replace('Roland Barker','<span class="icon-xnau-glyph"></span> xn*au webdesign',$links[1]);
-      $links[] = '<a href="http://wordpress.org/support/view/plugin-reviews/participants-database">'.__('Submit a rating or review','participants-database').' </a>';
-      $links[] = '<span style="color:#6B4001;">'.__('Free tech support and continued development relies on your support:','participants-database').' <a class="button xnau-contribute" href="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=6C7FSX2DQFWY4">'.__('contribute','participants-database').'</a></span>';
+      $links[1] = str_replace('Elias Ruemmler','<span class="icon-xnau-glyph"></span> RC-Art Solutions',$links[1]);
+      $links[] = '<a href="https://github.com/RcArtSolutions/wp-entry-list/releases/latest">'.__('Submit a rating or review','entry-list').' </a>';
     }
     return $links;
   }
